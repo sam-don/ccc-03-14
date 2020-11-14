@@ -1,6 +1,6 @@
 from models.User import User
 from functools import wraps
-from  flask_jwt_extended import get_jwt_identity
+from flask_jwt_extended import get_jwt_identity
 from flask import abort
 
 def verify_user(function):
